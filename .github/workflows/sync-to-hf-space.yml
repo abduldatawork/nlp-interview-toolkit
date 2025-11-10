@@ -17,8 +17,8 @@ jobs:
       - name: Push to Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          HF_USERNAME: your_hf_username
-          SPACE_NAME: your_space_name
+          HF_USERNAME: Aboudougafar
+          SPACE_NAME: nlp-interview-app
         run: |
           git remote add space https://huggingface.co/spaces/$HF_USERNAME/$SPACE_NAME
           git push --force space main # Overwrites Space's main branch with GitHub's
