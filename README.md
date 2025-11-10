@@ -5,6 +5,7 @@ colorFrom: blue
 colorTo: green
 sdk: streamlit
 app_file: app.py
-#python_version: 3
+pinned: false
+python_version: "3.13.5"
 ---
 # nlp-interview-toolkit
