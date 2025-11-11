@@ -20,12 +20,6 @@ def load_classifier():
     
     model = AutoModelForSequenceClassification.from_pretrained(model_id)
     
-    # Loading the label map we saved
-    # with open(f"{model_id}/label_map.json", "r") as f:
-    #     label_map = json.load(f)
-    #     # JSON keys are strings, let's convert them to integers
-    #     label_map = {int(k): v for k, v in label_map.items()}
-    
     # Download the label_map.json file from the Hub
     label_map_path = hf_hub_download(
         repo_id=model_id,
@@ -94,4 +88,5 @@ if st.button("Analyze Question"):
         st.error("Please enter a question.")
 else:
     st.warning("Please click the 'Analyze Question' button.")
+
 
