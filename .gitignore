@@ -1,0 +1,14 @@
+# .gitignore file
+
+# Python
+__pycache__/
+.venv/
+env/
+
+# Training artifacts
+results/  <-- Add this line
+logs/     <-- Add this line
+
+# Other
+.DS_Store
+*.env
