@@ -37,6 +37,7 @@ def load_classifier():
         label_map = json.load(f)
         # JSON keys are strings, let's convert them to integers
         label_map = {int(k): v for k, v in label_map.items()}
+    
     return tokenizer, model, label_map
 
 tokenizer, model, label_map = load_classifier()
@@ -93,3 +94,4 @@ if st.button("Analyze Question"):
         st.error("Please enter a question.")
 else:
     st.warning("Please click the 'Analyze Question' button.")
+
