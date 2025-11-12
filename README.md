@@ -10,9 +10,9 @@ python_version: "3.13.5"
 ---
 # 🎙️ AI Interview Prep Toolkit
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP-LINK-HERE.streamlit.app/)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/Aboudougafar/YOUR-SPACE-NAME)
-[![Python 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sql-coach-app-opksosjzvdcezmfnhaubq9.streamlit.app/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/Aboudougafar/nlp-interview-app)
+[![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 
 This project is an end-to-end NLP application built to help job seekers and students prepare for technical interviews. It provides a "smart" search tool that goes beyond simple keyword matching.
 
