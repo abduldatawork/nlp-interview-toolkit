@@ -45,7 +45,7 @@ This tool solves the problem by providing two core features.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/abduldatawork/nlp-interview-toolkit.git](https://github.com/abduldatawork/nlp-interview-toolkit.git)
+    git clone https://github.com/abduldatawork/nlp-interview-toolkit.git
     cd nlp-interview-toolkit
     ```
 
